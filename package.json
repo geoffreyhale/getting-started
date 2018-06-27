@@ -1,0 +1,30 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "The Getting Started project is an effort to clarify and streamline development workflow for (1) starting and (2) deploying new web applications.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "build": "babel src/ -d build/",
+    "production": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geoffreyhale/getting-started.git"
+  },
+  "keywords": [
+    "getting-started"
+  ],
+  "author": "Geoffrey Hale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoffreyhale/getting-started/issues"
+  },
+  "homepage": "https://github.com/geoffreyhale/getting-started"
+}
